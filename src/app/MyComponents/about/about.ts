@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-about',
   imports: [RouterModule],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  templateUrl: './about.html',
+  styleUrl: './about.css'
 })
-export class App {
-  protected title = 'todo-app';
+export class About {
+
 }
